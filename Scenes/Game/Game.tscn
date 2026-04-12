@@ -2,6 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://cans3ib37iggd" path="res://Assets/background/rocks_2.png" id="1_rdw05"]
 [ext_resource type="PackedScene" uid="uid://bu6g247xbjbdx" path="res://Scenes/Tappy/Tappy.tscn" id="2_gwu2e"]
+[ext_resource type="PackedScene" uid="uid://bt00aupik7fpe" path="res://Scenes/Barrier/Barrier.tscn" id="3_xbxml"]
 
 [node name="Game" type="Node" unique_id=2128879126]
 
@@ -12,3 +13,5 @@ centered = false
 
 [node name="Tappy" parent="." unique_id=2087059582 instance=ExtResource("2_gwu2e")]
 position = Vector2(103, 374)
+
+[node name="Barrier" parent="." unique_id=433326897 instance=ExtResource("3_xbxml")]
